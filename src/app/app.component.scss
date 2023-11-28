@@ -1,0 +1,42 @@
+.layout{
+  padding: 30px 40px;
+  width: 1000px;
+  height: 85vh;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px #aaa;
+}
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  button{
+    color:#FFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .add-btn{
+    background-color: blue;
+  }
+  .save-btn{
+    background-color: green;
+  }
+  .update-btn{
+    background-color: red;
+  }
+}
+table{
+  width: 100%;
+  td{
+    text-align: center;
+  }
+  tr {
+    border: 1px solid black;
+  }
+}
